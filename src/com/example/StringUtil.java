@@ -3,28 +3,24 @@ package com.example;
 public class StringUtil {
     private StringUtil() {}
         public static String reverseOnlyLetters (String str){
-            char[] ch = str.toCharArray(); // превращаю строку J@va the be$t!123 в массив, чтобы хранить символы
-            // Строки у нас не изменяемые, чтобы их сделать таковыми, нужно создать изменяемый массив
+            char[] ch = str.toCharArray();
+
             for (int left = 0, right = str.length() - 1; left < right; ) {
-             /* цикл с двумя переменными указателями, left и right, left =0, начало массива -->
-             ->> right идет с конца с конца массива, чтобы менять символы с двух сторон.
-             Условие продолжения: пока левый указатель не встретился с правым или не пересёк его.
-              */
+
                 if (!Character.isLetter(ch[left])) {
-                    left++; // Если символ справа НЕ буква – двигаем правый указатель влево.
-                } else if (!Character.isLetter(ch[right])) {
-                    right--; // Иначе если правый символ НЕ буква – пропускаем его
-
-
-                } else { // Иначе (обе буквенные) – меняем их местами и сдвигаем оба указателя.
-                    // меняем буквы
-                    char temp = ch[left]; //сохраняет символ из левой позиции. Нужна чтобы при обмене не потерять значение.
-                    ch[left] = ch[right]; // В левую позицию записывается символ из правой позиции.
-                    ch[right] = temp; // В правую позицию записывается сохранённый ранее левый символ.
                     left++;
-                    right--; // Указатели сдвигаются: левый – вправо, правый – влево
+                } else if (!Character.isLetter(ch[right])) {
+                    right--;
+
+
+                } else {
+                    char temp = ch[left];
+                    ch[left] = ch[right];
+                    ch[right] = temp;
+                    left++;
+                    right--;
                 }
             }
-            return new String(ch); // Из массива символов создаётся новая строка и возвращается как результат.
+            return new String(ch);
         }
     }
