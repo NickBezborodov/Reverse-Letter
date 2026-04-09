@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0f74f8e-fbc9-4aa0-a7db-4bd4edb25b3e" name="Изменения" comment="">
+      <change beforePath="$PROJECT_DIR$/ReverseLetter/Reverse Letter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReverseLetter/out/production/Reverse Letter/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReverseLetter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StringUtilTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="17" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NickBezborodov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NickBezborodov/Reverse-Letter.git&quot;,
+    &quot;accountId&quot;: &quot;211bae70-50a5-4d65-a9dd-1d4d226d78ab&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3C7AGg3VqI2yENloTV4mur8o54N" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.StringUtilTest.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_AStringOfLettersOnly.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_Astringoflettersonly.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_Emptystring_returnsEmpty.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_EvenNumber.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_OnlyFromNonLetters.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_OnlyOneNonAlpSymbol.executor": "Run",
+    "JUnit.StringUtilTest.reverOnlyletters_OnlyOneSymbol.executor": "Run",
+    "JUnit.StringUtilTest.reverseOnlyLetters_mixedString_reverseLettersOnly.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "solution",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "Приложение.Main.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.StringUtilTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="ReverseLetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReverseLetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.util" />
+      <option name="MAIN_CLASS_NAME" value="com.example.util.StringUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.reverOnlyletters_AStringOfLettersOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReverseLetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.StringUtilTest" />
+      <option name="METHOD_NAME" value="reverOnlyletters_AStringOfLettersOnly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.reverOnlyletters_EvenNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReverseLetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.StringUtilTest" />
+      <option name="METHOD_NAME" value="reverOnlyletters_EvenNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.reverOnlyletters_emptystring_returnsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReverseLetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.util" />
+      <option name="MAIN_CLASS_NAME" value="com.example.util.StringUtilTest" />
+      <option name="METHOD_NAME" value="reverOnlyletters_emptystring_returnsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StringUtilTest" />
+        <item itemvalue="Приложение.Main" />
+        <item itemvalue="JUnit.StringUtilTest.reverOnlyletters_emptystring_returnsEmpty" />
+        <item itemvalue="JUnit.StringUtilTest.reverOnlyletters_EvenNumber" />
+        <item itemvalue="JUnit.StringUtilTest.reverOnlyletters_AStringOfLettersOnly" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Задача по умолчанию">
+      <changelist id="b0f74f8e-fbc9-4aa0-a7db-4bd4edb25b3e" name="Изменения" comment="" />
+      <created>1775726141613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775726141613</updated>
+    </task>
+    <task id="LOCAL-00001" summary="добавил в проект библиотеку JUnit 5, используя Maven, и написал юнит-тесты.">
+      <option name="closed" value="true" />
+      <created>1775761198265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775761198266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавил в проект библиотеку JUnit 5, используя Maven, и написал юнит-тесты." />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил в проект библиотеку JUnit 5, используя Maven, и написал юнит-тесты." />
+  </component>
+</project>

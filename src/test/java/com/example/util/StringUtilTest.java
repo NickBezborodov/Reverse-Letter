@@ -1,6 +1,8 @@
-package com.example;
+package com.example.util;
 
+import com.example.StringUtil;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StringUtilTest {
@@ -18,39 +20,38 @@ class StringUtilTest {
         assertEquals(expected, actualresult);
     }
 
-
     @Test
-    void reverOnlyletters_Emptystring_returnsEmpty() {
+    void reverOnlyLetters_emptyString_returnsEmpty() {
         assertEquals("", StringUtil.reverseOnlyLetters(""));
     }
 
     @Test
-    void reverOnlyletters_AStringOfLettersOnly() {
+    void reverOnlyLetters_aStringOfLettersOnly() {
         assertEquals("cba", StringUtil.reverseOnlyLetters("abc"));
     }
 
     @Test
-    void reverOnlyletters_OnlyFromNonLetters() {
+    void reverOnlyLetters_onlyFromNonLetters() {
         assertEquals("123!@#", StringUtil.reverseOnlyLetters("123!@#"));
     }
 
     @Test
-    void reverOnlyletters_OnlyOneSymbol() {
+    void reverOnlyLetters_onlyOneSymbol() {
         assertEquals("A", StringUtil.reverseOnlyLetters("A"));
     }
 
     @Test
-    void reverOnlyletters_OnlyOneNonAlpSymbol() {
+    void reverOnlyLetters_onlyOneNonAlpSymbol() {
         assertEquals("@", StringUtil.reverseOnlyLetters("@"));
     }
 
     @Test
-    void reverOnlyletters_EvenNumber() {
+    void reverOnlyLetters_evenNumber() {
         assertEquals("abcdef", StringUtil.reverseOnlyLetters("fedcba"));
     }
 
     @Test
-    void reverOnlyletters_WithSpace() {
+    void reverOnlyLetters_withSpace() {
         assertEquals("a b c", StringUtil.reverseOnlyLetters("c b a"));
     }
 }
