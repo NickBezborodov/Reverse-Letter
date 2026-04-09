@@ -1,6 +1,5 @@
 package com.example.util;
 
-import com.example.StringUtil;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

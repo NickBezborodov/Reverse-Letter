@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f74f8e-fbc9-4aa0-a7db-4bd4edb25b3e" name="Изменения" comment="">
-      <change beforePath="$PROJECT_DIR$/ReverseLetter/Reverse Letter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseLetter/out/production/Reverse Letter/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseLetter/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StringUtilTest.java" beforeDir="false" />
+    <list default="true" id="b0f74f8e-fbc9-4aa0-a7db-4bd4edb25b3e" name="Изменения" comment="Исправил орфографические ошибки. Поменял на com.exmaple.util. Добавил помник и остальные файлы.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/util/StringUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="17" />
+    <option name="cachedIndexableFilesCount" value="14" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,30 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.StringUtilTest.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_AStringOfLettersOnly.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_Astringoflettersonly.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_Emptystring_returnsEmpty.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_EvenNumber.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_OnlyFromNonLetters.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_OnlyOneNonAlpSymbol.executor": "Run",
-    "JUnit.StringUtilTest.reverOnlyletters_OnlyOneSymbol.executor": "Run",
-    "JUnit.StringUtilTest.reverseOnlyLetters_mixedString_reverseLettersOnly.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "solution",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "Приложение.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.StringUtilTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_AStringOfLettersOnly.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_Astringoflettersonly.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_Emptystring_returnsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_EvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_OnlyFromNonLetters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_OnlyOneNonAlpSymbol.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverOnlyletters_OnlyOneSymbol.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilTest.reverseOnlyLetters_mixedString_reverseLettersOnly.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;solution&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;Приложение.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
+}</component>
+  <component name="RunManager" selected="Приложение.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="ReverseLetter" />
@@ -158,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="Приложение.Main" />
+        <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="JUnit.StringUtilTest.reverOnlyletters_emptystring_returnsEmpty" />
         <item itemvalue="JUnit.StringUtilTest.reverOnlyletters_EvenNumber" />
         <item itemvalue="JUnit.StringUtilTest.reverOnlyletters_AStringOfLettersOnly" />
@@ -182,11 +182,20 @@
       <option name="project" value="LOCAL" />
       <updated>1775761198266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Исправил орфографические ошибки. Поменял на com.exmaple.util. Добавил помник и остальные файлы.">
+      <option name="closed" value="true" />
+      <created>1775766607374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775766607374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавил в проект библиотеку JUnit 5, используя Maven, и написал юнит-тесты." />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил в проект библиотеку JUnit 5, используя Maven, и написал юнит-тесты." />
+    <MESSAGE value="Исправил орфографические ошибки. Поменял на com.exmaple.util. Добавил помник и остальные файлы." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил орфографические ошибки. Поменял на com.exmaple.util. Добавил помник и остальные файлы." />
   </component>
 </project>
